@@ -14,3 +14,5 @@ The project has mainly 3 files. The files are: <ul>
 <li>style.css</li> <br>
 
 The score is determined after all questions from a genre have been answered
+
+AI usage : 0% 😆 ai aint good
