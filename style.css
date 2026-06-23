@@ -1,0 +1,135 @@
+body {
+  font-family: Kumar One;
+  background-color: #000;
+  color: #fff;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 4px;
+}
+h3 {
+  color: #af8deb;
+  text-align: center;
+  margin-top: 0;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+#genre-screen {
+  background-color: #1a1a1a;
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+#genre-screen p {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+#genre-screen button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #af8deb;
+  background-color: transparent;
+  color: #af8deb;
+  cursor: pointer;
+  font-family: 'Kumar One', cursive;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: background-color 0.2s, color 0.2s;
+}
+#genre-screen button:hover {
+  background-color: #af8deb;
+  color: #000;
+}
+#quiz-screen {
+  background-color: #1a1a1a;
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  padding: 36px;
+  max-width: 480px;
+  width: 100%;
+}
+#progress {
+  color: #af8deb;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+#question-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  color: #fff;
+}
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#options button {
+  padding: 13px 16px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Kumar One', cursive;
+  font-size: 0.95rem;
+  text-align: left;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+#options button:hover {
+  border-color: #af8deb;
+  background-color: #2e2342;
+}
+#result-screen {
+  background-color: #1a1a1a;
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  padding: 48px 36px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+#score-display {
+  font-size: 1.6rem;
+  color: #af8deb;
+  margin-bottom: 28px;
+}
+#result-screen button {
+  padding: 14px 36px;
+  border-radius: 10px;
+  border: none;
+  background-color: #af8deb;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Kumar One', cursive;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: opacity 0.2s;
+}
+#result-screen button:hover {
+  opacity: 0.85;
+}
+.hidden {
+    display: none;
+}
